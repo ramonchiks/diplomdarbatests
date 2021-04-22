@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%; 
+    height: 100%;
+    font-family: westingtonregular;
+
+ background-image: linear-gradient(to bottom, #ffd7eb, #ddb4b5, #b29689, #837a67, #585d4e);
+}
+
+@font-face {
+    font-family: 'westingtonregular';
+    src: url(css/fonts/diplomdarbs-webfont.woff2) format('woff2'),
+         url(css/fonts/diplomdarbs-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nosaukums {
+ width: 60%;
+    height: 40%;
+    margin-left: 15%;
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-size: 10vw;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color:#ddddd5;
+    text-align: center;
+    padding: 3%;
+    position: relative;
+}
