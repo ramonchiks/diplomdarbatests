@@ -43,3 +43,8 @@ html, body {
     padding: 3%;
     position: relative;
 }
+
+img {
+  max-width: 15%;
+  height: auto;
+}
